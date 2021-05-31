@@ -11,7 +11,7 @@ webhooks:
     service:
       name: {{ include "registry-operator.fullname" . }}
       namespace: {{ .Release.Namespace }}
-      path: /validate-registry-astrokube-com-v1alpha1-ecrcredentials
+      path: /mutate-pod
   failurePolicy: Ignore
   name: mutate-pod.registry.astrokube.io
   rules:
