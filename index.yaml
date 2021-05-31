@@ -3,12 +3,12 @@ entries:
   registry-operator:
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2021-05-31T11:55:42.860909708Z"
+    created: "2021-05-31T11:56:44.127647933Z"
     description: A Helm chart for the Registry Operator
-    digest: 8f4238b43a3f0fadda2191e886746d7c10c3c79fe19942c59028fd2011868454
+    digest: 4a161167038c5e6c3774f5aebb161b5c0c673aed56de5b94ec0fc86f02b07387
     name: registry-operator
     type: application
     urls:
     - https://github.com/astrokube/charts/releases/download/registry-operator-0.1.0/registry-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-31T11:55:42.860914709Z"
+generated: "2021-05-31T11:56:44.127652833Z"
